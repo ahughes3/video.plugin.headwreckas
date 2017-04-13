@@ -19,18 +19,15 @@ _handle = int(sys.argv[1])
 # Here we use a fixed set of properties simply for demonstrating purposes
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
-VIDEOS = {'Animals': [{'name': 'Houston Cypher',
-                       'thumb': 'http://www.vidsplay.com/vids/alligator.jpg',
-                       'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/houston-cypher.mp4',
-                       'genre': 'Cyphers'},
-                      {'name': 'Alligator',
-                       'thumb': 'http://www.vidsplay.com/vids/alligator.jpg',
-                       'video': 'http://www.vidsplay.com/vids/alligator.mp4',
+VIDEOS = {'Movies': [
+                      {'name': 'Commissary and Obituaries',
+                       'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/cando-cover.jpg',
+                       'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/kdogg-oandc.mp4',
                        'genre': 'Animals'},
-                      {'name': 'Turtle',
-                       'thumb': 'http://www.vidsplay.com/vids/turtle.jpg',
-                       'video': 'http://www.vidsplay.com/vids/turtle.mp4',
-                       'genre': 'Animals'}
+                      {'name': 'Cold Summer',
+                       'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/coldsummer-cover.jpg',
+                       'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/coldsummer.mp4',
+                       'genre': 'Movies'}
                       ],
             'Cars': [{'name': 'Postal Truck',
                       'thumb': 'http://www.vidsplay.com/vids/us_postal.jpg',
