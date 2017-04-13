@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.headwreckas"
 version="2.1.0"
-name="Headwreckas Worldwide Kodi Video Plugin"
+name="Headwreckas Worldwide"
 provider-name="Roman_V_M">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
@@ -10,8 +10,8 @@ provider-name="Roman_V_M">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">Headwreckas Worldwide Video Plugin</summary>
-  <description lang="en">Bringing HDUBB live and direct to every device</description>
+  <summary lang="en">Headwreckas Worldwide Videos</summary>
+  <description lang="en">Connecting people worlwide through entertainment</description>
   <disclaimer lang="en">All rights reserved</disclaimer>
   <assets>
     <icon>icon.png</icon>

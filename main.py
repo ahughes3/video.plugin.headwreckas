@@ -19,41 +19,28 @@ _handle = int(sys.argv[1])
 # Here we use a fixed set of properties simply for demonstrating purposes
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
-VIDEOS = {'Movies': [
-                      {'name': 'Commissary and Obituaries',
+VIDEOS = {'Movies': [{'name': 'Commissary and Obituaries',
                        'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/cando-cover.jpg',
                        'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/kdogg-oandc.mp4',
-                       'genre': 'Animals'},
+                       'genre': 'Movies'},
                       {'name': 'Cold Summer',
                        'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/coldsummer-cover.jpg',
                        'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/coldsummer.mp4',
                        'genre': 'Movies'}
                       ],
-            'Cars': [{'name': 'Postal Truck',
-                      'thumb': 'http://www.vidsplay.com/vids/us_postal.jpg',
-                      'video': 'http://www.vidsplay.com/vids/us_postal.mp4',
-                      'genre': 'Cars'},
-                     {'name': 'Traffic',
-                      'thumb': 'http://www.vidsplay.com/vids/traffic1.jpg',
-                      'video': 'http://www.vidsplay.com/vids/traffic1.avi',
-                      'genre': 'Cars'},
-                     {'name': 'Traffic Arrows',
-                      'thumb': 'http://www.vidsplay.com/vids/traffic_arrows.jpg',
-                      'video': 'http://www.vidsplay.com/vids/traffic_arrows.mp4',
-                      'genre': 'Cars'}
+            'Music Videos': [{'name': 'Get Money',
+                      'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/get-money-cover.jpg',
+                      'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/get-money-hd.mp4',
+                      'genre': 'Music Videos'},
+                     {'name': 'Im From Texas',
+                      'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/im-from-texas-cover.jpg',
+                      'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/im-from-texas.mp4',
+                      'genre': 'Music Videos'}
                      ],
-            'Food': [{'name': 'Chicken',
-                      'thumb': 'http://www.vidsplay.com/vids/chicken.jpg',
-                      'video': 'http://www.vidsplay.com/vids/bbqchicken.mp4',
-                      'genre': 'Food'},
-                     {'name': 'Hamburger',
-                      'thumb': 'http://www.vidsplay.com/vids/hamburger.jpg',
-                      'video': 'http://www.vidsplay.com/vids/hamburger.mp4',
-                      'genre': 'Food'},
-                     {'name': 'Pizza',
-                      'thumb': 'http://www.vidsplay.com/vids/pizza.jpg',
-                      'video': 'http://www.vidsplay.com/vids/pizza.mp4',
-                      'genre': 'Food'}
+            'Clips': [{'name': 'SWAY: Houston Cypher',
+                      'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/cypher-cover.jpg',
+                      'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/houston-cypher.mp4',
+                      'genre': 'Clips'},
                      ]}
 
 
