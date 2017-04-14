@@ -2,7 +2,7 @@
 <addon id="plugin.video.headwreckas"
 version="2.1.0"
 name="Headwreckas Worldwide"
-provider-name="Roman_V_M">
+provider-name="adh3">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
 </requires>

@@ -19,7 +19,7 @@ _handle = int(sys.argv[1])
 # Here we use a fixed set of properties simply for demonstrating purposes
 # In a "real life" plugin you will need to get info and links to video files/streams
 # from some web-site or online service.
-VIDEOS = {'Movies': [{'name': 'Commissary and Obituaries',
+VIDEOS = {'Movies': [{'name': 'Commissary and Obituaries - KDOGG',
                        'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/cando-cover.jpg',
                        'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/kdogg-oandc.mp4',
                        'genre': 'Movies'},
@@ -28,19 +28,31 @@ VIDEOS = {'Movies': [{'name': 'Commissary and Obituaries',
                        'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/coldsummer.mp4',
                        'genre': 'Movies'}
                       ],
-            'Music Videos': [{'name': 'Get Money',
+            'Music Videos': [{'name': 'Get Money - A.Hughes',
                       'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/get-money-cover.jpg',
                       'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/get-money-hd.mp4',
                       'genre': 'Music Videos'},
-                     {'name': 'Im From Texas',
+                     {'name': 'Im From Texas - Doughbeezy',
                       'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/im-from-texas-cover.jpg',
                       'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/im-from-texas.mp4',
+                      'genre': 'Music Videos'},
+                      {'name': 'Drupal Rap - A.Hughes',
+                      'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/drupalrap-cover.jpg',
+                      'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/drupalrap.mp4',
+                      'genre': 'Music Videos'},
+                      {'name': 'LockJaw Freestyle - Q. Guyton X Doughbeezy',
+                      'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/lockjack-cover.jpg',
+                      'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/lockjaw-freestyle.mp4',
                       'genre': 'Music Videos'}
                      ],
-            'Clips': [{'name': 'SWAY: Houston Cypher',
+            'Freestyle Clips': [{'name': 'SWAY: Houston Cypher',
                       'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/cypher-cover.jpg',
                       'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/houston-cypher.mp4',
-                      'genre': 'Clips'},
+                      'genre': 'Freestyle Clips'},
+                      {'name': 'Mr.16 and King Los Cypher in LA',
+                      'thumb': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/kinglos-mr16-cover.png',
+                      'video': 'https://s3-us-west-2.amazonaws.com/headwreckas-videos/kinglos-mr16.mp4',
+                      'genre': 'Freestyle Clips'}
                      ]}
 
 
